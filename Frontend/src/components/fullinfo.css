@@ -1,0 +1,33 @@
+.container{
+    align-content: center;
+    align-items: center;
+}
+.rating-stars {
+    display: flex;
+    gap: 5px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .star {
+    color: #ccc; /* Default star color */
+  }
+  
+  .star.filled {
+    color: gold; /* Filled star color */
+  }
+  
+  .submit-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
